@@ -29,10 +29,10 @@ For output of the texture to platforms like Skype, Jit.si, Zoom etc. you need to
 
 1. Install `Syphon` from the Package Manager (mac)
 2. Enable Syhon/Spout output in the patcher.
-3. On Mac you can use software like [CamTwist](http://camtwiststudio.com/download/) to setup a virtual camera device. Select Syphon as a source in CamTwist and Max as syphon input.
+3. Install [CamTwist](http://camtwiststudio.com/download/) to setup a virtual camera device. Select Syphon as a source in CamTwist and Max as syphon-server.
 
 ## Windows
 
 1. Install `Spout` from the Package Manager (windows)
 2. Enable Syhon/Spout output in the patcher.
-3. Find some kind of Virtual Video Device software that can bridge the capture the Spout output and allows to be selected as camera input in the other platforms. *windows user contribute needed here*
+3. Find some kind of Virtual Camera Device software (like CamTwist for Mac) that can bridge the capture the Spout output and allows to be selected as camera input in the other platforms. *windows user contribution needed here*
