@@ -21,6 +21,12 @@ Git clone
 3. $ open ascii-art.maxpat
 ```
 
+# Dependency
+
+Please download the following abstractions and place them in your Max-Searchpath (for example under `~/Documents/Max 8/Library`)
+
+- [gl-pix-shaders](https://github.com/tmhglnd/gl-pix-shaders)
+
 # Output realtime texture
 
 For output of the texture to platforms like Skype, Jit.si, Zoom etc. you need to install the Spout (windows) or Syphon (mac) Package from the package manager.

@@ -39,6 +39,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 2,
+					"id" : "obj-47",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 270.0, 795.0, 151.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 360.0, 30.0, 121.0, 47.0 ],
+					"text" : "Download Syphon or Spout through the Package Manager"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"id" : "obj-42",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 45.0, 1078.0, 151.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 360.0, 93.5, 119.0, 33.0 ],
+					"text" : "Download and place in Max Searchpath:"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-29",
 					"linecount" : 2,
@@ -46,8 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 1052.0, 429.0, 35.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 225.0, 1050.0, 429.0, 35.0 ],
 					"text" : ";\rmax launchbrowser https://github.com/tmhglnd/ascii-art#output-realtime-texture"
 				}
 
@@ -66,7 +97,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 1050.0, 150.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 130.0, 450.0, 23.0 ],
+					"presentation_rect" : [ 30.0, 130.0, 293.0, 23.0 ],
 					"text" : "How to output texture to other platforms?",
 					"textjustification" : 0,
 					"textoncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
@@ -83,8 +114,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 1016.0, 300.0, 35.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 225.0, 977.0, 300.0, 35.0 ],
 					"text" : ";\rmax launchbrowser https://www.gumroad.com/tmhglnd"
 				}
 
@@ -98,9 +128,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 979.0, 434.0, 35.0 ],
-					"presentation_linecount" : 2,
-					"text" : ";\rmax launchbrowser https://en.wikipedia.org/wiki/Elementary_cellular_automaton"
+					"patching_rect" : [ 225.0, 1014.0, 335.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://github.com/tmhglnd/gl-pix-shaders"
 				}
 
 			}
@@ -118,8 +147,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 1014.0, 150.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 730.0, 450.0, 23.0 ],
-					"text" : "cellular automaton",
+					"presentation_rect" : [ 360.0, 130.0, 120.0, 23.0 ],
+					"text" : "gl-pix-shaders",
 					"textjustification" : 0,
 					"textoncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"usebgoncolor" : 1
@@ -136,7 +165,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.0, 942.0, 275.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : ";\rmax launchbrowser http://www.timohoogland.com"
 				}
 
@@ -682,9 +710,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 660.0, 45.0, 150.0, 60.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 360.0, 30.0, 120.0, 60.0 ],
 					"text" : "Ascii grayscale character set from: http://paulbourke.net/dataformats/asciiart/"
 				}
 
